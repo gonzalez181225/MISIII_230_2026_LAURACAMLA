@@ -1,0 +1,13 @@
+iniciar-programa
+	define-nueva-instruccion gira (lau) como
+    inicio
+    	repetir lau veces
+        inicio
+        	gira-izquierda;
+        fin;
+    fin;
+    inicia-ejecucion
+       gira(300);
+        apagate;
+    termina-ejecucion
+finalizar-programa
